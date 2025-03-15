@@ -1,8 +1,11 @@
+@import url(content.css);
+
 :root {
     --darkgray: #212329;
     --brightred: #F9423D;
     --white: #FFFFFF;
     --lightred: #FFA9A7;
+    --lightblue: #337af1;
 }
 
 * {
@@ -189,6 +192,10 @@
         margin: 5px auto;
         transition: all 0.3s ease-out;
         background: var(--white);
+    }
+
+    .hide-btn {
+        display: none !important;
     }
 
     .menu-toggle:hover {
