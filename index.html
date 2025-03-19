@@ -38,6 +38,43 @@
             <div class="main-image-container">
                 <img src="images/pic1.svg" alt="Main Image" id="main-image">
     </div>
+
+<!-- Modal -->
+
+<div class='modal' id='email-modal'>
+    <div class="modal-content">
+        <span class="close-btn" id="close-btn">&times;</span>
+        <div class="modal-content-left">
+            <img src="images/pic2.svg" alt="Astronaut on the moon" id="modal-img">
+        </div>
+        <div class="modal-content-right">
+            <!-- <h2 class="modal-heading">Subscribe to our newsletter</h2>
+            <p class="modal-subheading">Subscribe to our newsletter to get the latest updates on our services.</p> -->
+            <form action="#" method='GET' class="modal-form" id='form'>
+                <h1>Get started with us today! Create your account by filling out the information below.</h1>
+               <div class='form-validation' id='form-validation'>
+                 <input type='text' class='modal-input' placeholder='Enter your name' id='name' name='name'>
+                <p>Error Message</p>
+               </div>
+               <div class='form-validation'>
+                <input type='email' class='modal-input' placeholder='Enter your email' id='email' name='email'>
+                <p>Error Message</p>
+               </div>
+               <div class='form-validation'>
+                <input type='password' class='modal-input' placeholder='Enter your password' id='password' name='password'>
+                <p>Error Message</p>
+               </div>
+               <div class='form-validation'>
+                <input type='password' class='modal-input' placeholder='Confirm your password' id='password-confirm' name='password'>
+                <p>Error Message</p>
+               </div>
+                <input type="submit" class='modal-input-btn' value="Sign Up" ></input>
+                <span class="modal-input-login">Already have an account? Login <a href="#">here</a></span>
+            </form>
+        
+</div>
+
+
     <script src="app.js"></script>
 </body>
 </html>
