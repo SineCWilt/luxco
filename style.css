@@ -107,7 +107,7 @@
         flex-direction: column;
         align-items: center;
         /*grid-template-columns: auto;*/
-        background: var(--brightred);
+        /* background: var(--brightred); --Fixed red flash */
         margin: 0;
         width: 100%;
         position: absolute;
